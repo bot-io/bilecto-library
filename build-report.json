@@ -1,12 +1,17 @@
 {
-  "generatedAt": "2026-10-29T00:40:44.897Z",
+  "generatedAt": "2026-10-29T09:07:48.515Z",
   "report": [
     {
       "bookId": "pg84",
+      "rank": 1,
       "title": "Frankenstein; or, The modern Prometheus",
-      "status": "queued",
-      "done": 0,
-      "total": null
+      "author": "Mary Wollstonecraft Shelley",
+      "status": "partial",
+      "completion": 0.0023902001792650133,
+      "done": 8,
+      "total": 3347,
+      "paragraphsPublished": 8,
+      "artifactBytes": 1650
     },
     {
       "bookId": "pg1342",
@@ -94,15 +99,10 @@
     },
     {
       "bookId": "pg1952",
-      "rank": 14,
       "title": "The Yellow Wallpaper",
-      "author": "Charlotte Perkins Gilman",
-      "status": "partial",
-      "completion": 0.010256410256410256,
-      "done": 4,
-      "total": 390,
-      "paragraphsPublished": 4,
-      "artifactBytes": 1198
+      "status": "queued",
+      "done": 0,
+      "total": null
     },
     {
       "bookId": "pg1513",
