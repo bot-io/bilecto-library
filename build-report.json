@@ -1,0 +1,360 @@
+{
+  "generatedAt": "2026-10-29T00:40:44.897Z",
+  "report": [
+    {
+      "bookId": "pg84",
+      "title": "Frankenstein; or, The modern Prometheus",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1342",
+      "title": "Pride and Prejudice",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg2701",
+      "title": "Moby Dick; Or, The Whale",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg11",
+      "title": "Alice's Adventures in Wonderland",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1661",
+      "title": "The Adventures of Sherlock Holmes",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg345",
+      "title": "Dracula",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg41",
+      "title": "The Legend of Sleepy Hollow",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg64317",
+      "title": "The Great Gatsby",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg174",
+      "title": "The Picture of Dorian Gray",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg98",
+      "title": "A Tale of Two Cities",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg43",
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1260",
+      "title": "Jane Eyre: An Autobiography",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg205",
+      "title": "Walden, and On The Duty Of Civil Disobedience",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1952",
+      "rank": 14,
+      "title": "The Yellow Wallpaper",
+      "author": "Charlotte Perkins Gilman",
+      "status": "partial",
+      "completion": 0.010256410256410256,
+      "done": 4,
+      "total": 390,
+      "paragraphsPublished": 4,
+      "artifactBytes": 1198
+    },
+    {
+      "bookId": "pg1513",
+      "title": "Romeo and Juliet",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg145",
+      "title": "Middlemarch",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1080",
+      "title": "A Modest Proposal",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg2680",
+      "title": "Meditations",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1184",
+      "title": "The Count of Monte Cristo",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1400",
+      "title": "Great Expectations",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg74",
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg2600",
+      "title": "War and Peace",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg25344",
+      "title": "The Scarlet Letter",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg844",
+      "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg768",
+      "title": "Wuthering Heights",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg3207",
+      "title": "Leviathan",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg23",
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1727",
+      "title": "The Odyssey",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg46",
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg55",
+      "title": "The Wonderful Wizard of Oz",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg3296",
+      "title": "The Confessions of St. Augustine",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg76",
+      "title": "Adventures of Huckleberry Finn",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1998",
+      "title": "Thus Spake Zarathustra: A Book for All and None",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg67979",
+      "title": "The Blue Castle: a novel",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg45",
+      "title": "Anne of Green Gables",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg120",
+      "title": "Treasure Island",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg35",
+      "title": "The Time Machine",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg4300",
+      "title": "Ulysses",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg8492",
+      "title": "The King in Yellow",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg219",
+      "title": "Heart of Darkness",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg16389",
+      "title": "The Enchanted April",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg16328",
+      "title": "Beowulf: An Anglo-Saxon Epic Poem",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg6593",
+      "title": "History of Tom Jones, a Foundling",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1497",
+      "title": "The Republic",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg394",
+      "title": "Cranford",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg158",
+      "title": "Emma",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg7370",
+      "title": "Second Treatise of Government",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg1228",
+      "title": "On the Origin of Species By Means of Natural Selection",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg514",
+      "title": "Little Women",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    },
+    {
+      "bookId": "pg161",
+      "title": "Sense and Sensibility",
+      "status": "queued",
+      "done": 0,
+      "total": null
+    }
+  ]
+}
