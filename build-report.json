@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:07:48.515Z",
+  "generatedAt": "2026-10-29T09:34:44.709Z",
   "report": [
     {
       "bookId": "pg84",
@@ -99,10 +99,15 @@
     },
     {
       "bookId": "pg1952",
+      "rank": 14,
       "title": "The Yellow Wallpaper",
-      "status": "queued",
-      "done": 0,
-      "total": null
+      "author": "Charlotte Perkins Gilman",
+      "status": "partial",
+      "completion": 0.010256410256410256,
+      "done": 4,
+      "total": 390,
+      "paragraphsPublished": 4,
+      "artifactBytes": 1198
     },
     {
       "bookId": "pg1513",
