@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:34:44.709Z",
+  "generatedAt": "2026-11-06T00:39:32.846Z",
   "report": [
     {
       "bookId": "pg84",
@@ -7,11 +7,11 @@
       "title": "Frankenstein; or, The modern Prometheus",
       "author": "Mary Wollstonecraft Shelley",
       "status": "partial",
-      "completion": 0.0023902001792650133,
-      "done": 8,
+      "completion": 0.006573050492978787,
+      "done": 22,
       "total": 3347,
-      "paragraphsPublished": 8,
-      "artifactBytes": 1650
+      "paragraphsPublished": 9,
+      "artifactBytes": 2505
     },
     {
       "bookId": "pg1342",
