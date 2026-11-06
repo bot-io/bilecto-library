@@ -1,0 +1,47 @@
+name: check-pages-live
+
+# M2 close-out item 1 (north-star.md): a silent GitHub Pages regression on the
+# published library must fail loudly instead of recurring unobserved (the 2026-10-30
+# 404 incident: site 404 at 00:40, self-resolved by 07:55, nobody was paged).
+# Runs after the nightly publish window and on every push to main.
+
+on:
+  schedule:
+    - cron: '30 5 * * *' # 05:30 UTC = 07:30 FLE, after the night runner publish window
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Curl-200 regression check
+        run: |
+          set -euo pipefail
+          URL="https://bot-io.github.io/bilecto-library/"
+          # Pages deploys asynchronously after a push; retry to avoid racing it.
+          for attempt in 1 2 3 4 5; do
+            code=$(curl -sS -o page.html -w '%{http_code}' "$URL") || code="000"
+            echo "attempt $attempt: HTTP $code"
+            if [ "$code" = "200" ]; then break; fi
+            sleep 30
+          done
+          if [ "$code" != "200" ]; then
+            echo "FAIL: library site returned HTTP $code (expected 200)"
+            exit 1
+          fi
+          grep -q "Bilecto pre-translated library" page.html || {
+            echo "FAIL: 200 but content marker missing — stale or wrong page served"
+            exit 1
+          }
+          bytes=$(wc -c < page.html)
+          if [ "$bytes" -lt 1000 ]; then
+            echo "FAIL: page suspiciously small ($bytes bytes) — truncated deploy?"
+            exit 1
+          fi
+          echo "PASS: library site live — HTTP 200, marker present, $bytes bytes"
